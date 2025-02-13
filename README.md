@@ -8,7 +8,8 @@ It is not intended for general use. You can try to edit it for your own purpose,
 but I do not guarantee plug-n-play functionality.
 
 ## Basic usage
-Needs to be connected to a Dobot Magician for full fuunctionality.
+Needs to be connected to a Dobot Magician for full functionality.
+Otherwise enable debug mode in settings, which only will work for experiment mode.
 Works on wayland, but might need some dependencies depending on your distribution.
 Not tested on Windows at all, most likely needs a different serial communication implementation.
 ```
