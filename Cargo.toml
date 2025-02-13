@@ -1,0 +1,17 @@
+[package]
+name = "iced_dobot_controller"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dobot-fx24 = { git = "https://github.com/marischou/dobot-rust-fx24.git" }
+iced = { version = "0.13.1", features = ["canvas", "tokio"] }
+dragking = { git = "https://github.com/airstrike/dragking.git" }
+tokio = { version = "1.40.0", features = ["fs", "full"] }
+serde = { version = "1.0.213", features = ["derive"] }
+serde_json = "1.0.132"
+simple_logger = "5.0.0"
+log = "0.4.22"
+rand = "0.8.5"
+time = "0.3.36"
+serialport = "4.6.0"
