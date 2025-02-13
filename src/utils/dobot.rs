@@ -4,6 +4,7 @@ use serialport::SerialPort;
 use crate::{Shapes, _wait_n_ms};
 
 use super::structs::{DobotPath, Position, RelayPath};
+
 /// In this repository, a relay connected to arduino is used.
 /// therefore, a default connection to arduino at /dev/ttyACM0, baud rate 9600 is used.
 /// (Path is set in config.json (is autocreated at startup of program), or in structs.rs, Config::default) 
